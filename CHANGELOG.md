@@ -1,5 +1,17 @@
 # foxBMS Change Log
 
+## Release 1.1.0
+
+- Updated waf
+- Updated copyright
+- Updated the Eclipse Project
+- Updated checksum tool from gdb-based to object-copy-based toolchain
+- updated README.md
+
+## Release 1.0.1
+
+- Updated the Eclipse project
+
 ## Release 1.0.0
 
 - Added the Eclipse project as zip file.
