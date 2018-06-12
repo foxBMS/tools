@@ -76,5 +76,6 @@ def configure(conf):
 # sphinx docs
 from waflib.Build import BuildContext
 class sphinx(BuildContext):
+    __doc__ = '''creates the sphinx documentation of the project'''  # foxbms
     cmd = "sphinx"
     fun = "sphinx"

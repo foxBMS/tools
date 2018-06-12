@@ -210,5 +210,6 @@ def configure(conf):
 # doxygen docs
 from waflib.Build import BuildContext
 class doxy(BuildContext):
+    __doc__ = '''creates doxygen documentation'''  # foxbms
     cmd = "doxygen"
     fun = "doxygen"
