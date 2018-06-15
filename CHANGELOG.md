@@ -1,5 +1,9 @@
 # foxBMS Change Log
 
+## Release 1.1.1
+
+- fixed wrong file names the definition of the flash configuration
+
 ## Release 1.1.0
 
 - Updated waf
