@@ -43,14 +43,14 @@ primary-mcu:
           - write
           - verify
         - address: 0x08000000
-        - binary: build\primary\embedded-software\mcu-primary\src\general\foxbms_flash.bin
+        - binary: build\primary\embedded-software\mcu-primary\src\general\foxbms_primary_flash.bin
       - 2:
         - actions:
           - erase
           - write
           - verify
         - address: 0x080FFF00
-        - binary: build\primary\embedded-software\mcu-primary\src\general\foxbms_flashheader.bin
+        - binary: build\primary\embedded-software\mcu-primary\src\general\foxbms_primary_flashheader.bin
 
 secondary-mcu:
   - COM: AUTODETECT # 'COMx' or AUTODETECT; if AUTODETECT is used, only one foxBMS can be connected to the PC
@@ -61,11 +61,11 @@ secondary-mcu:
           - write
           - verify
         - address: 0x08000000
-        - binary: build\secondary\embedded-software\mcu-secondary\src\general\foxbms_flash.bin
+        - binary: build\secondary\embedded-software\mcu-secondary\src\general\foxbms_secondary_flash.bin
       - 2:
         - actions:
           - erase
           - write
           - verify
         - address: 0x080FFF00
-        - binary: build\secondary\embedded-software\mcu-secondary\src\general\foxbms_flashheader.bin
+        - binary: build\secondary\embedded-software\mcu-secondary\src\general\foxbms_secondary_flashheader.bin
